@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.topnav li{
+    display: inline-block;
+}
+.topnav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    padding: 10px;
+}
+.topnav .logo{
+    margin-right: 1250px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.topnav a:hover{
+    border-bottom: 3px solid red;
+    cursor: pointer;
+}
+
+.topnav{
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+.body{
+    display: flex;
+    margin: 0;
+    padding: 50px 10px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 50px;
+}
+.img{
+    height: 600px;
+    width: 350px;
+    border: solid 2px white;
+    border-radius: 40px;
+    transition: 1s ease;
+}
+.img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+.title{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+}
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+span{
+    color: red;
+}
+.querylogo{
+    display: none;
+}
+.onepiecebutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.onepiecebutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.narutobutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.narutobutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.dragonballzbutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:40px;
+    font-weight: 600;
+}
+.dragonballzbutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.attackontitanbutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:60px;
+    font-weight: 600;
+}
+.attackontitanbutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.yournamebutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:40px;
+    font-weight: 600;
+}
+.yournamebutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.iwanttoeatyourpancreasbutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.iwanttoeatyourpancreasbutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.angelbeatsbutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:40px;
+    font-weight: 600;
+}
+.angelbeatsbutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.asilentvoicebutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:80px;
+    font-weight: 600;
+} 
+
+.asilentvoicebutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.deathnotebutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:40px;
+    font-weight: 600;
+}
+.deathnotebutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.chainsawmanbutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.chainsawmanbutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.onepunchmanbutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:40px;
+    font-weight: 600;
+}
+.onepunchmanbutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.hunterxhunterbutton{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.hunterxhunterbutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.onepiecevid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.onepiecevid h1{
+    padding: 5px;
+}
+.narutovid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.narutovid h1{
+    padding: 5px;
+}
+
+.dragonballzvid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.dragonballzvid h1{
+    padding: 5px;
+}
+.attackontitanvid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.attackontitanvid h1{
+    padding: 5px;
+}
+
+.yournamevid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 1460px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.yournamevid h1{
+    padding: 5px;
+}
+.iwanttoeatyourpancreasvid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 1460px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.iwanttoeatyourpancreas h1{
+    padding: 5px;
+}
+.angelbeatsvid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 1460px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.angelbeats h1{
+    padding: 5px;
+}
+.asilentvoicevid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 1460px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.asilentvoice h1{
+    padding: 5px;
+}
+.deathnotevid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2480px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.deathnotevid h1{
+    padding: 5px;
+}
+
+.chainsawmanvid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2480px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.chainsawmanvid h1{
+    padding: 5px;
+}
+
+.onepunchmanvid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2480px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.onepunchmanvid h1{
+    padding: 5px;
+}
+.hunterxhuntervid{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2480px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 40px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     display: none;
+}
+.hunterxhunter h1{
+    padding: 5px;
+}
+
+.close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closetwo{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closethree{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closefour{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closefive{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closesix{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closeseven{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closeeight{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closenine{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closeten{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closeeleven{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+.closetwelve{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}
+iframe{
+    height: 450px;
+}
+
+@media screen and (max-width:480px){
+    .body{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .topnav .logo{
+        display: none;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+    }
+    h3{
+        margin-bottom: 15px;
+    }
+    span{
+        color: red;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .img{
+        height: 350px;
+        width: 250px;
+    }
+    .title{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .querylogo{
+        display: block;
+    }
+    .vid .onepiecevid{
+        width: 80%;
+        top: 90px;
+    }
+    .vid .narutovid{
+        width: 80%;
+        top: 800px;
+    }
+    .vid .dragonballzvid{
+        width: 80%;
+        top: 1740px;
+    }
+    .vid .attackontitanvid{
+        width: 80%;
+        top: 2380px;
+    }
+    .vid .yournamevid{
+        width: 80%;
+        top: 3000px;
+    }
+    .vid .iwanttoeatyourpancreasvid{
+        width: 80%;
+        top: 3700px;
+    }
+    .vid .angelbeatsvid{
+        width: 80%;
+        top: 4350px;
+    }
+    .vid .asilentvoicevid{
+        width: 80%;
+        top: 5005px;
+    }
+    .vid .deathnotevid{
+        width: 80%;
+        top: 5600px;
+    }
+    .vid .chainsawmanvid{
+        width: 80%;
+        top: 6280px;
+    }
+    .onepunchmanvid{
+        width: 80%;
+        top: 6940px;
+    }
+    .hunterxhuntervid{
+        width: 80%;
+        top: 7580px;
+    }
+    .onepiecebutton{
+        margin-top: 10px;
+    }
+    .narutovid{
+        margin-top: 10px;
+    }
+    .dragonballzbutton{
+        margin-top: 10px;
+    }
+    .attackontitanbutton{
+        margin-top: 10px;
+    }
+    .yournamebutton{
+        margin-top: 10px;
+    }
+    .iwanttoeatyourpancreasbutton{
+        margin-top: 10px;
+    }
+    .angelbeatsbutton{
+        margin-top: 10px;
+    }
+    .asilentvoicebutton{
+        margin-top: 10px;
+    }
+    .deathnotebutton{
+        margin-top: 10px;
+    }
+    .chainsawmanbutton{
+        margin-top: 10px;
+    }
+    .onepunchmanbutton{
+        margin-top: 10px;
+    }
+    .hunterxhunter{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
